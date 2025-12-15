@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-def response = WS.sendRequestAndVerify(findTestObject('PUT Edit User', [('userId') : '12', ('job') : 'Kepala Divisi', ('salary') : 10000]))
+def response = WS.sendRequestAndVerify(findTestObject('PUT Edit User', [('userId') : '1', ('job') : 'Kepala Divisi', ('salary') : 10000]))
 
 WS.verifyResponseStatusCode(response, 200)
 

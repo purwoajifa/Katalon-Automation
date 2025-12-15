@@ -8,7 +8,7 @@
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <autoUpdateContent>false</autoUpdateContent>
-   <connectionTimeout>-1</connectionTimeout>
+   <connectionTimeout>0</connectionTimeout>
    <followRedirects>true</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
@@ -26,7 +26,7 @@
       <webElementGuid>200ceb17-afed-44b0-851f-684a66c8eda7</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>10.3.2</katalonVersion>
-   <maxResponseSize>-1</maxResponseSize>
+   <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
@@ -37,7 +37,7 @@
    <soapRequestMethod></soapRequestMethod>
    <soapServiceEndpoint></soapServiceEndpoint>
    <soapServiceFunction></soapServiceFunction>
-   <socketTimeout>-1</socketTimeout>
+   <socketTimeout>0</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <validationSteps>
       <id>3761be41-8dc0-42a5-b304-5d1b9d707c7a</id>
@@ -49,21 +49,21 @@
       <activate>true</activate>
    </validationSteps>
    <variables>
-      <defaultValue>'1'</defaultValue>
+      <defaultValue>'12'</defaultValue>
       <description></description>
       <id>352e47b5-07dc-4819-ac83-c8cf43e353b8</id>
       <masked>false</masked>
       <name>userId</name>
    </variables>
    <variables>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'Kepala Divisi'</defaultValue>
       <description></description>
       <id>213b6624-e464-4316-aae5-f27975e98bb8</id>
       <masked>false</masked>
       <name>job</name>
    </variables>
    <variables>
-      <defaultValue>0</defaultValue>
+      <defaultValue>10000</defaultValue>
       <description></description>
       <id>deebf774-7506-4867-9bdf-2f2446b0fe7e</id>
       <masked>false</masked>
